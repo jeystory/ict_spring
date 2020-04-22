@@ -1,0 +1,29 @@
+*{
+	margin: 0 0;
+	font-size: 20px;
+	line-height: 1.6
+}
+/* table, td, th {   */
+tbody td, th{
+  	border: 1px solid #ffb8b8;
+}
+	
+table{
+	margin : 15px;
+	border-collapse: collapse;
+	width: 80%;
+	padding : 5px;
+}
+
+th {
+	background-color: lightcoral;
+	clolr : white;
+}
+
+tfoot {
+	text-align: center;
+	border-collapse : collapse;
+}
+
+
+	

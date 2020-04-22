@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id ="mp" class = "com.ict.ex05.MapPrint">
+		<property name="map1">
+			<map>
+				<entry>
+					<key><value>id</value></key>
+					<value>zzzz</value>
+				</entry>
+				<entry>
+					<key><value>pw</value></key>
+					<value>9999</value>
+				</entry>
+				<entry>
+					<key><value>name</value></key>
+					<value>또치</value>
+				</entry>
+				<entry>
+					<key><value>age</value></key>
+					<value>50</value>
+				</entry>
+				<entry>
+					<key><value>addr</value></key>
+					<value>space</value>
+				</entry>
+			</map>
+		</property>
+		
+		<property name="map2">
+			<map>
+				<entry>
+					<key><value>1001</value></key>
+					<value>영희</value>
+				</entry>
+				<entry>
+					<key><value>1002</value></key>
+					<value>철수</value>
+				</entry>
+				<entry>
+					<key><value>1003</value></key>
+					<value>바둑이</value>
+				</entry>
+				<entry>
+					<key><value>1004</value></key>
+					<value>마이콜</value>
+				</entry>
+				<entry>
+					<key><value>1005</value></key>
+					<value>고길동</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

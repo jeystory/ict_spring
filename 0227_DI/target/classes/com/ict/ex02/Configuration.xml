@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--  설정 정보 : 객체를 생성하고, 객체간의 의존성을 이어줄 수 있도록 필요한 정보를 제공
+		기본적으로  xml 파일이고 annotation을 이용해서 설정할 수 있음.
+	 
+	 	<bean id="외부에서 호출할 떄 사용" class = "실제 클래스의 위치"> </bean>	 	
+	 -->
+	<!--  java에서는 -> OracleDAO oracle = new OracleDAO; -->
+	 <bean id="oracle" class="com.ict.ex02.OracleDAO" />
+	 <!--  java에서는 -> MySqlDAO mysql = new MySqlDAO; -->
+	 <bean id="mysql" class="com.ict.ex02.MySqlDAO" />
+	 
+	 <!-- 만들어진 객체를 Service 객체에 의존성을 주입 : 생성자 혹은 setter 이용 -->
+	 <bean id = "service" class = "com.ict.ex02.Service">
+	 	<!-- 1. 생성자 이용 방법  -->
+	 	<!--ref : 기존에 있는 Bean 객체를 참조할 경우  -->
+	 	<!-- <constructor-arg ref="oracle"/>  -->
+	 	
+	 <!-- 	<constructor-arg>
+	 		<ref bean = "mysql" />
+	 	</constructor-arg> -->
+	 	
+	 	<!-- 2. setter 이용 방법 -->
+	 	<!-- name은 해당 클래스가 가지고 있는 setter 변수의 이름을 자동으로 보여줌 -->
+	 	<!-- <property name="dao" ref = "mysql"></property> -->
+	 	<property name="dao" ref = "oracle"></property>
+	 </bean>
+
+</beans>

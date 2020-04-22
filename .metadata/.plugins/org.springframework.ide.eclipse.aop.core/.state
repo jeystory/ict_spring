@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="0324_Transaction"/>
+<aop-project name="0302_Web_DI2"/>
+<aop-project name="0305_MVC_01"/>
+<aop-project name="0306_MVC_05"/>
+<aop-project name="0316_MVC_BBS"/>
+<aop-project name="0406_kakaologin_mvc"/>
+<aop-project name="0310_MVC_GuestBook01"/>
+<aop-project name="0302_Web_DI1"/>
+<aop-project name="0305_AOP">
+<aspect-definition advice-class-name="com.ict.ex03.MyAspect" advice-method-name="pre" advice-type="BEFORE" aspect-end-line-number="21" aspect-name="myAspect" aspect-start-line-number="21" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" pointcut-expression="execution(* do*())" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:boy:11" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="11" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~pre" source-start-line="7" target="=0305_AOP/src&lt;com.ict.ex03{Boy.java[Boy~doPlaying" target-start-line="17"/>
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:boy:11" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="11" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~pre" source-start-line="7" target="=0305_AOP/src&lt;com.ict.ex03{Boy.java[Boy~doSometing" target-start-line="11"/>
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:girl:12" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~pre" source-start-line="7" target="=0305_AOP/src&lt;com.ict.ex03{Girl.java[Girl~doPlaying" target-start-line="22"/>
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:girl:12" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~pre" source-start-line="7" target="=0305_AOP/src&lt;com.ict.ex03{Girl.java[Girl~doSometing" target-start-line="12"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.ict.ex03.MyAspect" advice-method-name="next" advice-type="AFTER" aspect-end-line-number="22" aspect-name="myAspect" aspect-start-line-number="22" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" pointcut-expression="execution(* do*())" proxy-target-class="false">
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:boy:11" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="11" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~next" source-start-line="11" target="=0305_AOP/src&lt;com.ict.ex03{Boy.java[Boy~doPlaying" target-start-line="17"/>
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:boy:11" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="11" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~next" source-start-line="11" target="=0305_AOP/src&lt;com.ict.ex03{Boy.java[Boy~doSometing" target-start-line="11"/>
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:girl:12" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~next" source-start-line="11" target="=0305_AOP/src&lt;com.ict.ex03{Girl.java[Girl~doPlaying" target-start-line="22"/>
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:0305_AOP|3:src/com/ict/ex03/aop.xml|7:beans:6|8:girl:12" bean-file="/0305_AOP/src/com/ict/ex03/aop.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/0305_AOP/src/com/ict/ex03/aop.xml" source="=0305_AOP/src&lt;com.ict.ex03{MyAspect.java[MyAspect~next" source-start-line="11" target="=0305_AOP/src&lt;com.ict.ex03{Girl.java[Girl~doSometing" target-start-line="12"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="0302_Web_JDBC2"/>
+<aop-project name="0407_jQuery_UI"/>
+<aop-project name="0304_Web_Guestbook"/>
+<aop-project name="0306_MVC_06"/>
+<aop-project name="0306_MVC_02"/>
+<aop-project name="0227_DI"/>
+<aop-project name="0317_MVC_Board"/>
+<aop-project name="Web_Project"/>
+<aop-project name="0309_MVC_JDBC"/>
+<aop-project name="Junit"/>
+<aop-project name="0310_MVC_GuestBook02"/>
+<aop-project name="0303_Web_MyBatis"/>
+<aop-project name="0312_MVC_MyBatis2"/>
+<aop-project name="0306_MVC_03"/>
+<aop-project name="0406_naverlogin_mvc"/>
+<aop-project name="0320_MVC_Ajax"/>
+<aop-project name="0312_MVC_MyBatis"/>
+<aop-project name="0306_MVC_04_annotation"/>
+<aop-project name="0309_MVC_07"/>
+<aop-project name="0319_MVC_Shop"/>
+</aop-reference-model>

@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="resources/css/rolling.css">
+
+<script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="resources/js/rolling.js"></script>
+<style type="text/css">
+
+
+</style>
+<style type="text/css">
+	.footer{
+   	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+  <div class="main_menu"><%@ include file="menu_main.jsp" %></div>
+<br>
+	<br>
+
+ <h2 style = "text-align: center">Sweet Forest 베스트</h2>
+	<div class="rolling_wrap">
+		<a href="item_sub_detail.do?idx=1" class="content"><img src="resources/images/items/snack02.jpg"></a>
+		<a href="item_sub_detail.do?idx=6" class="content"><img src="resources/images/items/bread01.jpg"></a>
+		<a href="item_sub_detail.do?idx=7" class="content"><img src="resources/images/items/dessert01.jpg"></a>
+		<a href="item_sub_detail.do?idx=2" class="content"><img src="resources/images/items/snack03.jpg"></a>
+		<a href="item_sub_detail.do?idx=11" class="content"><img src="resources/images/items/bread02.jpg"></a>
+		<a href="item_sub_detail.do?idx=8" class="content"><img src="resources/images/items/dessert02.jpg"></a>
+		<a href="item_sub_detail.do?idx=4" class="content"><img src="resources/images/items/snack05.jpg"></a>
+	</div>
+	
+	<br>
+	<hr>
+	<br>
+	
+	
+	<table style="text-align: center; margin: 0 auto;">
+		<thead ><h2 style="text-align: center">Sweet Forest 이벤트</h2></thead>
+		<tbody>
+			<tr>
+				<td><a href="event_sub.do?idx=1"><img src="resources/images/events/event_01.jpg"></a><td>
+				<td><a href="event_sub.do?idx=2"><img src="resources/images/events/event_02.jpg"></a></td>
+				<td><a href="event_sub.do?idx=3"><img src="resources/images/events/event_03.jpg"></a></td>
+				<td><a href="event_sub.do?idx=4"><img src="resources/images/events/event_04.jpg"></a></td> 
+			<tr>
+		</tbody>
+	</table>
+	
+	
+	<br>
+	<div class="footer"><%@ include file="bottom.jsp" %></div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+127.0.0.1 - - [27/Feb/2020:11:42:57 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [27/Feb/2020:11:42:58 +0900] "GET /edu/WEB-INF/classes/com/ict/ex01/TestMain.java HTTP/1.1" 404 721

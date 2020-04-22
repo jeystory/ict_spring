@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.12.202001201914-CI-B2372]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+		<config>src/main/java/com/ict/ex02/Configuration.xml</config>
+		<config>src/main/java/com/ict/ex03/Configuration.xml</config>
+		<config>src/main/java/com/ict/ex04/Configuration.xml</config>
+		<config>src/main/java/com/ict/ex05/Configuration.xml</config>
+		<config>src/main/java/com/ict/ex06/Configuration.xml</config>
+	</configs>
+	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
+		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
