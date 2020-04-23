@@ -7,5 +7,6 @@
 	</list>
 	<list key="J2EE_EXPORT_JST_WEB">
 		<item value="C:\tomcat9\webapps\Web_Project.war"/>
+		<item value="C:\tomcat9\webapps\Bakery.war"/>
 	</list>
 </section>

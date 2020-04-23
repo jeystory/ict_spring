@@ -273,7 +273,7 @@ public class SfController {
 				session.setAttribute("evlist", evlist);
 				
 			} else {
-				System.out.println("이벤트가 없음");
+				System.out.println("이벤트 없음");
 			}
 			
 		} catch (Exception e) {
@@ -839,7 +839,7 @@ public class SfController {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("redirect:review_detail.do?idx="+rvo.getIdx());
 		try {
-			String path = session.getServletContext().getRealPath("/resources/images/review");
+			String path = session.getServletContext().getRealPath("/resources/images/reviews");
 			MultipartFile file = rvo.getFile();
 			if(file.isEmpty()) {
 				rvo.setFile_name("");

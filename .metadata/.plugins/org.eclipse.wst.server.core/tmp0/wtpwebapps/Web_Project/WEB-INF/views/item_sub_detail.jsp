@@ -68,18 +68,7 @@ function update_item() {
 			<td colspan=2><fmt:formatNumber value="${ivo.item_price}" pattern="#,##0"/>원</td>
 		</tr>
 		<tr>
-			<td>
-				<div class="custom-select" style="">
-					구매 개수 : <select>
-						<option value="1">1개</option>
-						<option value="2">2개</option>
-						<option value="3">3개</option>
-						<option value="4">4개</option>
-						<option value="5">5개</option>
-						<option value="6">6개</option>
-					</select>
-				</div>
-			</td>
+			
 			<td>
 			<input type = "hidden" name = "idx" value="${ivo.idx}">
 			<c:choose>		

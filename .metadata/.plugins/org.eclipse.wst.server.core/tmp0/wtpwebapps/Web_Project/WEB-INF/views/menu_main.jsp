@@ -106,12 +106,8 @@
  				<li style="float:right;"><a href="login.do"> 로그인</a></li>
  		 	</c:otherwise>
  		 </c:choose>
- 		
- 		
- 		 
- 		</div>
 	</ul>
-	<hr>
+	
 	
   </p>	
 </body>

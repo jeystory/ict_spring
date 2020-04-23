@@ -26,7 +26,7 @@
 		<a href="item_sub_detail.do?idx=4" class="content"><img src="resources/images/items/snack05.jpg"></a>
 	</div>
 	
-	<br>http://localhost:8090/item_sub_detail.do?idx=22
+	<br>
 	<hr>
 	<br>
 	

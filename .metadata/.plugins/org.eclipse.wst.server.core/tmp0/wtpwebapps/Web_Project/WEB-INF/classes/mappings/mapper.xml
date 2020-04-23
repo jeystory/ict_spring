@@ -31,7 +31,7 @@
 	
 	<!-- get event information for all  -->
 	<select id="get_event_list" resultType="evo">
-		select * from sf_event
+		select * from sf_event order by idx desc
 	</select>
 	
 	<!-- get event information for one   -->
